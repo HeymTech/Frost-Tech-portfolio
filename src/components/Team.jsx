@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 
-import Deva from "../assets/team/deva.jpeg";
+import Deva from "../assets/team/deva1.jpeg";
 import Gokul from "../assets/team/gokul.jpeg";
 import Hruthik from "../assets/team/hrithik.jpeg";
 import Tamil from "../assets/team/tamil.jpeg";
