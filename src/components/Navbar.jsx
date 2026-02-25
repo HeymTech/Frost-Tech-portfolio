@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../assets/logo1.svg";
+import logo from "../assets/logo1.png";
 import Team from "./Team";
 
 function Navbar() {
@@ -25,7 +25,7 @@ function Navbar() {
             className="w-10 h-10 object-contain"
           />
           <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent whitespace-nowrap">
-            HeymTech
+            FrostTech
           </h1>
         </div>
 

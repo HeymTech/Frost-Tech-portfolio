@@ -11,7 +11,7 @@ function MediaSlider() {
 
   const videos = [
     {
-      src: "/videos/reel1.mp4",
+      src: "/videos/reel8.mp4",
       title: "Instagram Reel Editing",
       desc: "Smooth transitions and engaging captions for social media growth."
     },
@@ -21,15 +21,20 @@ function MediaSlider() {
       desc: "High-quality brand storytelling with cinematic visuals."
     },
     {
-      src: "/videos/reel3.mp4",
+      src: "/videos/reel7.mp4",
       title: "Cinematic Motion Graphics",
       desc: "Advanced editing using Premiere Pro & After Effects."
     },
     {
-      src: "/videos/reel6.mp4",
+      src: "/videos/reel5.mp4",
       title: "Business Advertisement",
       desc: "Professional ad content for startups and enterprises."
-    }
+    },
+    {
+  src: "/videos/reel3.mp4",
+  title: "Social Media Campaign Video",
+  desc: "Creative promotional content designed to boost engagement and brand visibility."
+}
   ];
 
 const handleFullScreen = (videoElement) => {

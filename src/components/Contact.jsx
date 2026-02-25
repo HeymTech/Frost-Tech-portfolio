@@ -37,8 +37,8 @@ return (
           <div>
             <h4 className="font-semibold text-lg">Address</h4>
             <p className="text-gray-400">
-              10, Krisha Street,<br />
-              Coimbatore 641004
+              2nd cross street,<br />
+               ALS nagar,Madambakkam
             </p>
           </div>
         </div>

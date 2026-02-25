@@ -79,7 +79,7 @@ const [showModal, setShowModal] = useState(false);
       <p className="text-xs uppercase text-gray-400">
         Projects Completed
       </p>
-      <p className="text-lg font-bold">10+</p>
+      <p className="text-lg font-bold">5</p>
     </div>
 
   </div>
@@ -104,7 +104,7 @@ const [showModal, setShowModal] = useState(false);
       <p className="text-sm uppercase text-gray-400 mb-2">
         Projects Completed
       </p>
-      <p className="text-3xl font-bold">10+</p>
+      <p className="text-3xl font-bold">5</p>
     </div>
   </div>
 

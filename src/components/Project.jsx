@@ -1,7 +1,9 @@
-import { FaCode,FaRocket } from "react-icons/fa";
+// import { FaCode,FaRocket } from "react-icons/fa";
+import { useState } from "react";
+import { FaRocket } from "react-icons/fa";
 
 function Projects() {
-
+const [activeLink, setActiveLink] = useState(null);
   const projects = [
     {
       id: 1,
@@ -57,17 +59,35 @@ function Projects() {
               {project.description}
             </p>
 
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:underline font-medium"
-            >
-              View Live Site →
-            </a>
+<button
+  onClick={() => setActiveLink(project.link)}
+  className="text-blue-500 hover:underline font-medium"
+>
+  View Live Site →
+</button>
           </div>
         ))}
       </div>
+      {activeLink && (
+  <div className="fixed inset-0 bg-black/80 flex flex-col z-50">
+    
+    <div className="flex justify-between items-center p-4 bg-zinc-900">
+      <h3 className="text-white font-semibold">Live Preview</h3>
+      <button
+        onClick={() => setActiveLink(null)}
+        className="text-red-500 font-bold"
+      >
+        Close ✕
+      </button>
+    </div>
+
+    <iframe
+      src={activeLink}
+      title="Project Preview"
+      className="w-full h-full"
+    />
+  </div>
+)}
     </section>
   );
 }

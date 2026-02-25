@@ -6,8 +6,8 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 
 import Deva from "../assets/team/deva.jpeg";
-import Gokul from "../assets/team/Tamil.jpeg";
-import Hruthik from "../assets/team/Tamil.jpeg";
+import Gokul from "../assets/team/gokul.jpeg";
+import Hruthik from "../assets/team/hrithik.jpeg";
 import Tamil from "../assets/team/tamil.jpeg";
 import Elango from "../assets/team/elango.jpeg";
 import Anbu from "../assets/team/anbu.jpeg";
@@ -90,7 +90,7 @@ function Team() {
   loop={true}
   speed={1000}                // smooth sliding speed (1 sec animation)
   autoplay={{
-    delay: 3000,              // 👈 3 seconds
+    delay: 2000,              // 👈 3 seconds
     disableOnInteraction: false,
     // reverseDirection: false,  // false = right → left
   }}

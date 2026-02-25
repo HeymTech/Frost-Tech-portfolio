@@ -11,7 +11,7 @@ function Footer() {
         <div>
           <div className="mb-6">
             <span className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm tracking-widest">
-              HeymTech
+              FrostTech
             </span>
           </div>
 
@@ -89,7 +89,7 @@ function Footer() {
 
             <div className="flex items-center gap-3">
               <FaMapMarkerAlt className="text-blue-500" />
-              <span>10, Krisha Street, Coimbatore 641004</span>
+              <span>2nd cross street, ALS nagar,Madambakkam</span>
             </div>
 
           </div>
@@ -135,7 +135,7 @@ function Footer() {
       {/* Bottom Line */}
       <div className="border-t border-zinc-800 mt-16 pt-6 flex flex-col md:flex-row justify-between items-center text-sm">
 
-        <p>© 2026 HeymTech. All rights reserved.</p>
+        <p>© 2026 FrostTech. All rights reserved.</p>
 
         <div className="flex gap-6 mt-4 md:mt-0">
           <span className="hover:text-blue-500 cursor-pointer">
