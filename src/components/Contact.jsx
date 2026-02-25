@@ -67,7 +67,7 @@ return (
           </div>
         </div>
 
-        {/* Opening Hours */}
+        {/* Opening Hours
         <div className="flex items-start gap-4">
           <div className="w-12 h-12 flex items-center justify-center rounded-full bg-zinc-800 border border-zinc-700 text-blue-500 text-xl">
             ⏰
@@ -78,7 +78,7 @@ return (
               Mon - Sun: 10:00 AM – 06:00 PM
             </p>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>

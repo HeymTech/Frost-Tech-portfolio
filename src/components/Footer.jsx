@@ -94,10 +94,10 @@ function Footer() {
 
           </div>
 
-          {/* Social Icons */}
+          {/* Social Icons
 <div className="flex gap-4 mt-8">
 
-  {/* X (Twitter) */}
+  X (Twitter)
   <a
     href="https://twitter.com/yourusername"
     target="_blank"
@@ -107,7 +107,7 @@ function Footer() {
     <FaXTwitter className="text-white text-lg" />
   </a>
 
-  {/* LinkedIn */}
+  LinkedIn
   <a
     href="https://linkedin.com/in/yourusername"
     target="_blank"
@@ -117,7 +117,7 @@ function Footer() {
     <FaLinkedinIn className="text-white text-lg" />
   </a>
 
-  {/* Instagram */}
+  Instagram
   <a
     href="https://instagram.com/yourusername"
     target="_blank"
@@ -127,7 +127,7 @@ function Footer() {
     <FaInstagram className="text-white text-lg" />
   </a>
 
-</div>
+</div> */}
 
         </div>
       </div>

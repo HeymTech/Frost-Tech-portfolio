@@ -115,12 +115,13 @@ function Services() {
             <h3 className="text-2xl font-semibold mb-4 text-blue-500">
               Digital Marketing
             </h3>
-            <p className="text-gray-400 leading-relaxed">
-      We help businesses grow online using advanced <strong>Meta AI</strong> solutions
-      and <strong>SEO</strong> strategies. Our approach includes social media marketing,
-      paid advertising campaigns, branding strategies, and performance analytics
-      to maximize ROI and reach.
-            </p>
+  <p className="text-gray-400 leading-relaxed">
+    We provide complete <strong>Digital Marketing</strong> solutions to help businesses grow online. 
+    Our services include <strong>Meta ads</strong>, <strong>Social Media Marketing</strong>, 
+    <strong>SEO</strong>, <strong>Content Creation</strong>, and <strong>Analytics</strong>. 
+    We focus on increasing brand visibility, driving website traffic, generating leads, 
+    and delivering measurable results tailored for every company.
+  </p>
           </div>
         </div>
 

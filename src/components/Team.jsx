@@ -5,12 +5,12 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 
-import Deva from "../assets/team/Tamil.jpeg";
+import Deva from "../assets/team/deva.jpeg";
 import Gokul from "../assets/team/Tamil.jpeg";
 import Hruthik from "../assets/team/Tamil.jpeg";
-import Tamil from "../assets/team/Tamil.jpeg";
-import eva from "../assets/team/Tamil.jpeg";
-import frank from "../assets/team/Tamil.jpeg";
+import Tamil from "../assets/team/tamil.jpeg";
+import Elango from "../assets/team/elango.jpeg";
+import Anbu from "../assets/team/anbu.jpeg";
 
 function Team() {
   const teamMembers = [
@@ -43,24 +43,6 @@ function Team() {
     },
     {
       id: 4,
-      name: "Elango",
-      role: "Testing, AI/ML,Website Developer",
-      experience: "3+ Years Experience",
-      photo: eva,
-      details:
-        "Ensures product quality through testing, automation, and validation processes.",
-    },
-    {
-      id: 5,
-      name: "Anbu",
-      role: "E-commerce Manager, Website Developer",
-      experience: "4+ Years Experience",
-      photo: frank,
-      details:
-        "Manages e-commerce platforms and optimizes digital storefront performance.",
-    },
-    {
-      id: 6,
       name: "Tamil Selvan.R",
       role: "App Developer, Database Handler, Website Developer",
       experience: "5+ Years Experience",
@@ -68,10 +50,28 @@ function Team() {
       details:
         "Develops scalable mobile applications & Websites and also manages backend database systems efficiently.",
     },
+    {
+      id: 5,
+      name: "Elango",
+      role: "Testing, AI/ML,Website Developer",
+      experience: "3+ Years Experience",
+      photo: Elango,
+      details:
+        "Ensures product quality through testing, automation, and validation processes.",
+    },
+    {
+      id: 6,
+      name: "Anbu",
+      role: "E-commerce Manager, Website Developer",
+      experience: "4+ Years Experience",
+      photo: Anbu,
+      details:
+        "Manages e-commerce platforms and optimizes digital storefront performance.",
+    },
   ];
 
   return (
-    <section id="team" className="bg-black py-24 px-6 text-white">
+    <section id="team" className="bg-black py-24 px-6 text-white p-2">
       
       {/* ADVANCED HEADING */}
       <div className="max-w-6xl mx-auto mb-16 text-center ">
@@ -111,7 +111,7 @@ function Team() {
         </div>
 
         {/* RIGHT CONTENT */}
-        <div>
+        <div className="pl-3">
           <h3 className="text-4xl font-bold mb-3">
             {member.name}
           </h3>
@@ -120,9 +120,9 @@ function Team() {
             {member.role}
           </p>
 
-          <p className="text-gray-400 mb-4">
+          {/* <p className="text-gray-400 mb-4">
             {member.experience}
-          </p>
+          </p> */}
 
           <p className="text-gray-300 leading-relaxed">
             {member.details}
