@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectCoverflow } from "swiper/modules";
-import { FaInfoCircle } from "react-icons/fa";
+import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/effect-coverflow";
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
 
 import Deva from "../assets/team/Tamil.jpeg";
 import Gokul from "../assets/team/Tamil.jpeg";
@@ -13,138 +13,133 @@ import eva from "../assets/team/Tamil.jpeg";
 import frank from "../assets/team/Tamil.jpeg";
 
 function Team() {
-  const [selectedMember, setSelectedMember] = useState(null);
-const teamMembers = [
-  {
-    id: 1,
-    name: "Dev Ashish.R",
-    role: "CEO, Business Analyst, Marketing",
-    photo: Deva,
-    details:
-      "Leads the company strategy, marketing direction, and business analysis to ensure growth and scalability.",
-  },
-  {
-    id: 2,
-    name: "Hrithik.P",
-    role: "Video Editor, App Developer",
-    photo: Hruthik,
-    details:
-      "Handles video production, editing, and contributes to mobile app development projects.",
-  },
-  {
-    id: 3,
-    name: "Gokul.P",
-    role: "Website Developer, AI/ML",
-    photo: Gokul,
-    details:
-    "Builds modern websites and works on Artificial Intelligence & Machine Learning solutions.",
-  },
-  {
-    id: 4,
-    name: "Elango",
-    role: "QA Engineer,Website Developer, AI/ML",
-    photo: eva,
-    details:
-    "Ensures product quality through rigorous testing and validation processes.",
-  },
-  {
-    id: 5,
-    name: "Anbu",
-    role: "E-commerce Management, Website Developer",
-    photo: frank,
-    details:
-    "Manages online store platforms and supports website development projects.",
-  },
-  {
-    id: 6,
-    name: "Tamil Selvan.R",
-    role: "App Developer, Website Developer, Database Handler",
-    photo: Tamil,
-    details:
-      "Develops mobile apps, websites, and manages backend database operations efficiently.",
-  },
-];
+  const teamMembers = [
+    {
+      id: 1,
+      name: "Dev Ashish.R",
+      role: "CEO, Business Analyst, Marketing",
+      experience: "5+ Years Experience",
+      photo: Deva,
+      details:
+        "Leads company strategy, drives marketing campaigns, and performs deep business analysis to scale operations efficiently.",
+    },
+    {
+      id: 2,
+      name: "Hrithik.P",
+      role: "Social Media Handler,Video Editor",
+      experience: "3+ Years Experience",
+      photo: Hruthik,
+      details:
+        "Specializes in high-quality video production and contributes to mobile application development projects.",
+    },
+    {
+      id: 3,
+      name: "Gokul.P",
+      role: "Website Developer, AI/ML",
+      experience: "4+ Years Experience",
+      photo: Gokul,
+      details:
+        "Builds modern responsive websites and develops AI/ML-based smart solutions.",
+    },
+    {
+      id: 4,
+      name: "Elango",
+      role: "Testing, AI/ML,Website Developer",
+      experience: "3+ Years Experience",
+      photo: eva,
+      details:
+        "Ensures product quality through testing, automation, and validation processes.",
+    },
+    {
+      id: 5,
+      name: "Anbu",
+      role: "E-commerce Manager, Website Developer",
+      experience: "4+ Years Experience",
+      photo: frank,
+      details:
+        "Manages e-commerce platforms and optimizes digital storefront performance.",
+    },
+    {
+      id: 6,
+      name: "Tamil Selvan.R",
+      role: "App Developer, Database Handler, Website Developer",
+      experience: "5+ Years Experience",
+      photo: Tamil,
+      details:
+        "Develops scalable mobile applications & Websites and also manages backend database systems efficiently.",
+    },
+  ];
+
   return (
-    <section id="team" className="bg-black py-24 relative">
-      <h2 className="text-4xl font-bold text-center mb-16">
-        Meet Our Team
-      </h2>
+    <section id="team" className="bg-black py-24 px-6 text-white">
+      
+      {/* ADVANCED HEADING */}
+      <div className="max-w-6xl mx-auto mb-16 text-center ">
+        <h2 className="text-5xl font-bold">
+          Meet Our <span className="text-blue-500">Expert Team</span>
+        </h2>
+        <p className="text-gray-400 mt-4 max-auto ">
+          Our team combines creativity, technical expertise, and strategic thinking 
+          to deliver innovative digital solutions for clients worldwide.
+        </p>
+      </div>
 
 <Swiper
-  modules={[Autoplay, EffectCoverflow]}
-  effect="coverflow"
-  centeredSlides={true}
-  slidesPerView={2}      // 👈 exactly 3 visible
+  modules={[Autoplay, Navigation]}
+  slidesPerView={1}           // 👈 Only ONE member visible
   loop={true}
+  speed={1000}                // smooth sliding speed (1 sec animation)
   autoplay={{
-    delay: 2500,
+    delay: 3000,              // 👈 3 seconds
     disableOnInteraction: false,
+    // reverseDirection: false,  // false = right → left
   }}
-  coverflowEffect={{
-    rotate: 0,
-    stretch: 0,
-    depth: 150,
-    modifier: 1,
-    slideShadows: false,
-  }}
-  className="w-full max-w-5xl mx-auto"
+  navigation={true} 
+  className="max-w-6xl mx-auto"
 >
-        {teamMembers.map((member) => (
-          <SwiperSlide key={member.id}>
-            <div className="bg-zinc-900 rounded-2xl p-8 text-center shadow-2xl transition duration-500 relative">
-              
-              {/* INFO ICON */}
-              <FaInfoCircle
-                className="absolute top-4 right-4 text-blue-500 text-xl cursor-pointer hover:scale-110 transition"
-                onClick={() => setSelectedMember(member)}
-              />
+  {teamMembers.map((member) => (
+    <SwiperSlide key={member.id}>
+      <div className="grid md:grid-cols-2 gap-12 items-center">
 
-              <img
-                src={member.photo}
-                alt={member.name}
-                className="w-36 h-36 mx-auto rounded-full object-cover border-4 border-blue-500 mb-6"
-              />
-              <h3 className="text-2xl font-semibold">
-                {member.name}
-              </h3>
-              <p className="text-gray-400 mt-2">
-                {member.role}
-              </p>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-
-      {/* MODAL */}
-      {selectedMember && (
-        <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
-          <div className="bg-zinc-900 rounded-2xl p-10 max-w-md w-full text-center relative">
-
-            <button
-              onClick={() => setSelectedMember(null)}
-              className="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl"
-            >
-              ×
-            </button>
-
-            <img
-              src={selectedMember.photo}
-              alt={selectedMember.name}
-              className="w-32 h-32 mx-auto rounded-full object-cover border-4 border-blue-500 mb-6"
-            />
-            <h3 className="text-2xl font-bold mb-2">
-              {selectedMember.name}
-            </h3>
-            <p className="text-blue-400 mb-4">
-              {selectedMember.role}
-            </p>
-            <p className="text-gray-300">
-              {selectedMember.details}
-            </p>
-          </div>
+        {/* LEFT IMAGE */}
+        <div className="flex justify-center">
+          <img
+            src={member.photo}
+            alt={member.name}
+            className="w-80 h-80 object-cover rounded-3xl border-4 border-blue-500 shadow-2xl"
+          />
         </div>
-      )}
+
+        {/* RIGHT CONTENT */}
+        <div>
+          <h3 className="text-4xl font-bold mb-3">
+            {member.name}
+          </h3>
+
+          <p className="text-blue-500 text-xl mb-2">
+            {member.role}
+          </p>
+
+          <p className="text-gray-400 mb-4">
+            {member.experience}
+          </p>
+
+          <p className="text-gray-300 leading-relaxed">
+            {member.details}
+          </p>
+
+          {/* <button className="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-xl transition">
+            View Profile
+          </button> */}
+        </div>
+
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+
     </section>
   );
 }
+
 export default Team;

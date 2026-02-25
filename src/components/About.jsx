@@ -17,11 +17,11 @@ function About() {
         {/* Text */}
         <div>
           <h2 className="text-4xl font-bold mb-6">
-            About <span className="text-blue-500">Heym Tech</span>
+            About <span className="text-blue-500">HeymTech</span>
           </h2>
 
           <p className="text-gray-300 mb-4 leading-relaxed">
-            Heym Tech is a forward-thinking technology company focused on delivering
+            HeymTech is a forward-thinking technology company focused on delivering
             innovative digital solutions for businesses in India and worldwide. 
             We specialize in creating technology that drives efficiency, growth, 
             and meaningful digital transformation.

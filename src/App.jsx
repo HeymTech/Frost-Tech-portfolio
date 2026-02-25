@@ -6,6 +6,8 @@ import Projects from "./components/Project";
 import Contact from "./components/Contact";
 import Media from "./components/Media";
 import Team from "./components/Team";
+import AboutStats from "./components/AboutStatus";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       <Projects />
       <Media />
       <Team />
+      <AboutStats />
       <Contact />
+      <Footer />
     </div>
   );
 }

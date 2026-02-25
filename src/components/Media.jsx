@@ -26,7 +26,7 @@ function MediaSlider() {
       desc: "Advanced editing using Premiere Pro & After Effects."
     },
     {
-      src: "/videos/reel4.mp4",
+      src: "/videos/reel6.mp4",
       title: "Business Advertisement",
       desc: "Professional ad content for startups and enterprises."
     }
@@ -50,7 +50,7 @@ const handleFullScreen = (videoElement) => {
   return (
     <section
       id="media"
-      className="relative h-screen bg-zinc-900 text-white overflow-hidden"
+      className="py-24 px-8 bg-zinc-900 text-white"
     >
       <Swiper
         modules={[Navigation, Pagination, EffectFade]}

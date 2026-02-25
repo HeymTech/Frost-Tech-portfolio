@@ -22,7 +22,7 @@ const slides = [
     description:
       "Our team builds powerful cross-platform mobile applications and intelligent ML-driven systems...",
     button: "Explore Solutions",
-    link: "#about",
+    link: "#services",
   },
   {
     image: hero3,
@@ -49,13 +49,13 @@ const slides = [
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
-    }, 10000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <section className="relative h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden">
+    <section id="home"  className="relative h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden">
 
       {/* Background Images */}
       {slides.map((slide, index) => (

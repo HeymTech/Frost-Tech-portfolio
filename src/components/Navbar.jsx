@@ -25,13 +25,13 @@ function Navbar() {
             className="w-10 h-10 object-contain"
           />
           <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent whitespace-nowrap">
-            Heym Tech
+            HeymTech
           </h1>
         </div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-sm font-medium text-gray-300 items-center">
-          {["about", "services", "projects", "media", "contact"].map(
+          {["home","about", "services", "projects", "media", "contact"].map(
             (item) => (
               <li key={item}>
                 <a
