@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import Deva from "../assets/team/deva1.jpeg";
 import Gokul from "../assets/team/gokul.jpeg";
 import Hruthik from "../assets/team/hrithik.jpeg";
-import Tamil from "../assets/team/tamil.jpeg";
+import Tamil from "../assets/team/Tamil.jpeg";
 import Elango from "../assets/team/elango.jpeg";
 import Anbu from "../assets/team/anbu.jpeg";
 
