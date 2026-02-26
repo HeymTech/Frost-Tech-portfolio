@@ -11,6 +11,7 @@ import Hruthik from "../assets/team/hrithik.jpeg";
 import Tamil from "../assets/team/Tamil.jpeg";
 import Elango from "../assets/team/elango.jpeg";
 import Anbu from "../assets/team/anbu.jpeg";
+import Gowtham from "../assets/team/gowtham.jpeg";
 
 function Team() {
   const teamMembers = [
@@ -44,7 +45,7 @@ function Team() {
     {
       id: 4,
       name: "Tamil Selvan.R",
-      role: "App Developer, Database Handler, Website Developer",
+      role: "App Developer, React JS Full stack, Website Developer",
       experience: "5+ Years Experience",
       photo: Tamil,
       details:
@@ -67,6 +68,15 @@ function Team() {
       photo: Anbu,
       details:
         "Manages e-commerce platforms and optimizes digital storefront performance.",
+    },
+        {
+      id: 7,
+      name: "Gowtham",
+      role: "Java Full stack developer, Website Developer",
+      experience: "4+ Years Experience",
+      photo: Gowtham,
+      details:
+         "Java Full Stack Developer with 4+ years of experience in building responsive websites and scalable web applications using Java and modern web technologies.",
     },
   ];
 
