@@ -21,7 +21,7 @@ function Navbar() {
         <div className="flex items-center gap-2">
           <img
             src={logo}
-            alt="Heym Tech"
+            alt="FrostTech"
             className="w-10 h-10 object-contain"
           />
           <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent whitespace-nowrap">

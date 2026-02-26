@@ -79,7 +79,7 @@ function Footer() {
 
             <div className="flex items-center gap-3">
               <FaEnvelope className="text-blue-500" />
-              <span>heymtech26@gmail.com</span>
+              <span>frosttech26@gmail.com</span>
             </div>
 
             <div className="flex items-center gap-3">

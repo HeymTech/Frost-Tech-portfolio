@@ -62,7 +62,7 @@ return (
           <div>
             <h4 className="font-semibold text-lg">Email</h4>
             <p className="text-gray-400">
-              heymtech26@gmail.com
+              frosttech26@gmail.com
             </p>
           </div>
         </div>

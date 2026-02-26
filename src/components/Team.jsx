@@ -17,7 +17,7 @@ function Team() {
     {
       id: 1,
       name: "Dev Ashish.R",
-      role: "CEO, Business Analyst, Marketing",
+      role: "Business Analyst, Marketing",
       experience: "5+ Years Experience",
       photo: Deva,
       details:
@@ -53,7 +53,7 @@ function Team() {
     {
       id: 5,
       name: "Elango",
-      role: "Testing, AI/ML,Website Developer",
+      role: "Testing, AI/ML, Website Developer",
       experience: "3+ Years Experience",
       photo: Elango,
       details:

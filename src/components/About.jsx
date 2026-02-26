@@ -9,7 +9,7 @@ function About() {
         <div>
           <img
             src={AboutImage}
-            alt="Heym Tech Company"
+            alt="FrostTech Company"
             className="rounded-xl shadow-lg"
           />
         </div>
