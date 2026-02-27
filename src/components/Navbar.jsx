@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../assets/logo1.png";
+import logo from "../assets/FrostTech_Logo.png";
 import Team from "./Team";
 
 function Navbar() {
