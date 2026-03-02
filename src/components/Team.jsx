@@ -12,6 +12,7 @@ import Tamil from "../assets/team/Tamil.jpeg";
 import Elango from "../assets/team/elango.jpeg";
 import Anbu from "../assets/team/anbu.jpeg";
 import Gowtham from "../assets/team/gowtham.jpeg";
+import Rayan from "../assets/team/rayan.jpeg";
 
 function Team() {
   const teamMembers = [
@@ -49,7 +50,7 @@ function Team() {
       experience: "5+ Years Experience",
       photo: Tamil,
       details:
-        "Develops scalable mobile applications & Websites and also manages backend database systems efficiently.",
+        "Experienced App and React JS Full Stack Developer with the expertise in building scalable mobile applications, dynamic websites, and efficiently managing backend systems and databases.",
     },
     {
       id: 5,
@@ -76,7 +77,16 @@ function Team() {
       experience: "4+ Years Experience",
       photo: Gowtham,
       details:
-         "Java Full Stack Developer with 4+ years of experience in building responsive websites and scalable web applications using Java and modern web technologies.",
+         "Java Full Stack Developer with experience in building responsive websites and scalable web applications using Java and modern web technologies.",
+    },
+            {
+      id: 8,
+      name: "Rayan.K",
+      role: "UI/UX designer, Testing",
+      experience: "4+ Years Experience",
+      photo: Rayan,
+      details:
+          "Creative UI/UX Designer with the experience in designing user-friendly interfaces, improving user experiences, and performing detailed testing to ensure high-quality, responsive digital products.",
     },
   ];
 

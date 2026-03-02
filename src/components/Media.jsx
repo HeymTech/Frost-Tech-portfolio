@@ -57,6 +57,9 @@ const handleFullScreen = (videoElement) => {
       id="media"
       className="py-24 px-8 bg-zinc-900 text-white"
     >
+      <h2 className="text-4xl font-bold text-center mb-16">
+        Our <span className="text-blue-500">Medias</span>
+      </h2>
       <Swiper
         modules={[Navigation, Pagination, EffectFade]}
         navigation={true} // ✅ Left & Right arrows
