@@ -37,11 +37,11 @@ function Team() {
     {
       id: 3,
       name: "Gokul.P",
-      role: "Website Developer, AI/ML",
+      role: "AI/ML, DataBase Handler",
       experience: "4+ Years Experience",
       photo: Gokul,
       details:
-        "Builds modern responsive websites and develops AI/ML-based smart solutions.",
+        "Builds modern and Handle the DataBase and develops AI/ML-based smart solutions.",
     },
     {
       id: 4,
@@ -81,7 +81,7 @@ function Team() {
     },
             {
       id: 8,
-      name: "Rayan.K",
+      name: "Rayan Siva Sankara K",
       role: "UI/UX designer, Testing",
       experience: "4+ Years Experience",
       photo: Rayan,
