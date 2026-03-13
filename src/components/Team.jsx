@@ -13,6 +13,7 @@ import Elango from "../assets/team/elango.jpeg";
 import Anbu from "../assets/team/anbu.jpeg";
 import Gowtham from "../assets/team/gowtham.jpeg";
 import Rayan from "../assets/team/rayan.jpeg";
+import Mani from "../assets/team/mani.jpeg";
 
 function Team() {
   const teamMembers = [
@@ -87,6 +88,15 @@ function Team() {
       photo: Rayan,
       details:
           "Creative UI/UX Designer with the experience in designing user-friendly interfaces, improving user experiences, and performing detailed testing to ensure high-quality, responsive digital products.",
+    },
+                {
+      id: 9,
+      name: "Manikandan G",
+      role: "Social Media Handler, Digital Marketing",
+      experience: "4+ Years Experience",
+      photo: Mani,
+      details:
+          "Responsible for building and managing the company’s digital presence through social media management and strategic digital marketing. Focused on growing the brand, engaging audiences, and driving measurable online success.",
     },
   ];
 

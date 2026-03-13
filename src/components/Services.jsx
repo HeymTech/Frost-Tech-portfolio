@@ -3,7 +3,7 @@ import flutterImg from "../assets/serivce.jpg";
 import uiuxImg from "../assets/service6.jpg";
 import videoImg from "../assets/service4.jpg"; // Add this image
 import marketingImg from "../assets/service5.jpg"; // Add this image
-
+import social from "../assets/social.png";
 function Services() {
   return (
     <section id="services" className="py-24 px-8 bg-zinc-900 text-white">
@@ -124,6 +124,32 @@ function Services() {
   </p>
           </div>
         </div>
+
+        {/* 6. Social Media Handling */}
+<div className="grid md:grid-cols-2 bg-black rounded-xl overflow-hidden hover:scale-[1.02] transition duration-300">
+  <div className="order-2 md:order-1 p-8 flex flex-col justify-center">
+    <h3 className="text-2xl font-semibold mb-4 text-blue-500">
+      Social Media Management
+    </h3>
+
+    <p className="text-gray-400 leading-relaxed">
+      We manage and grow your brand across social media platforms like 
+      <strong> Instagram</strong>, <strong>Facebook</strong>, 
+       and <strong>YouTube</strong>. 
+      Our services include content planning, post design, audience engagement, 
+      hashtag strategy, performance tracking, and campaign management to 
+      increase followers, improve engagement, and strengthen your online presence.
+    </p>
+  </div>
+
+  <div className="order-1 md:order-2">
+    <img
+      src={social}
+      alt="Social Media Management"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
 
       </div>
     </section>
