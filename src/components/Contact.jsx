@@ -37,8 +37,9 @@ return (
           <div>
             <h4 className="font-semibold text-lg">Address</h4>
             <p className="text-gray-400">
-              2nd cross street,<br />
-               ALS nagar,Madambakkam
+              Plot-65, 2nd Main Rd, Rayala Nagar, Ramapuram,<br />
+              
+                 Chennai, Tamil Nadu 600089
             </p>
           </div>
         </div>
@@ -50,7 +51,7 @@ return (
           </div>
           <div>
             <h4 className="font-semibold text-lg">Phone</h4>
-            <p className="text-gray-400">+91 63802 16200</p>
+            <p className="text-gray-400">+91 93455 98370</p>
           </div>
         </div>
 
@@ -85,7 +86,16 @@ return (
 
     {/* RIGHT SIDE - MAP */}
     <div className="rounded-xl overflow-hidden shadow-2xl border border-zinc-700">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.0749061789934!2d80.15389089189564!3d12.904660694420137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f12ab397073%3A0x269688fb4982abc8!2sKumaran%20flats!5e0!3m2!1sen!2sin!4v1772042404089!5m2!1sen!2sin" width="600" height="450" loading="lazy"></iframe>
+<iframe
+  src="https://www.google.com/maps?q=Plot-65%2C%202nd%20Main%20Rd%2C%20Rayala%20Nagar%2C%20Ramapuram%2C%20Manapakkam%2C%20Chennai%2C%20Tamil%20Nadu%20600089&output=embed"
+  width="600"
+  height="450"
+  style={{ border: 0 }}
+  loading="lazy"
+  allowFullScreen
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Frosttech Location"
+/>
     </div>
 
   </div>

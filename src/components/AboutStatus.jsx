@@ -15,7 +15,7 @@ const [showModal, setShowModal] = useState(false);
     const date = e.target.date.value;
     const time = e.target.time.value;
 
-    const phone = "916380216200";
+    const phone = "919345598370";
 
     const text = encodeURIComponent(
       `📅 New Appointment Request\n\n` +
@@ -153,7 +153,7 @@ const [showModal, setShowModal] = useState(false);
           const time = e.target.time.value;
         //   const notes = e.target.notes.value.trim();
 
-          const phone = "916380216200";
+          const phone = "919345598370";
 
           const text = encodeURIComponent(
             `📅 New Appointment Request\n\n` +

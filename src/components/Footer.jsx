@@ -84,12 +84,13 @@ function Footer() {
 
             <div className="flex items-center gap-3">
               <FaPhoneAlt className="text-blue-500" />
-              <span>+91 63802 16200</span>
+              <span>+91 93455 98370</span>
             </div>
 
             <div className="flex items-center gap-3">
               <FaMapMarkerAlt className="text-blue-500" />
-              <span>2nd cross street, ALS nagar,Madambakkam</span>
+              <span>Plot-65, 2nd Main Rd, Rayala Nagar, Ramapuram,
+                 Chennai, Tamil Nadu 600089</span>
             </div>
 
           </div>
